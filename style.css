@@ -7,7 +7,7 @@
 :root {
   --button-color: #a4cc06;
   --headers-font-color: black;
-  --paragraphs-font-color: rgb(47, 79, 79);
+  --paragraphs-font-color: gray;
 }
 .big-section {
   padding: 5% 10%;
