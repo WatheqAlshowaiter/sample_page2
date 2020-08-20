@@ -163,8 +163,6 @@ a:visited {
     margin-left: 0;
     margin-bottom: 4em;
   }
-  .about__image {
-  }
 }
 /* end about section */
 
@@ -574,7 +572,11 @@ footer#contact {
 
 .footer__icons i {
   color: white;
+  opacity: 0.8;
   margin-right: 20px;
+}
+.footer__icons i:hover {
+  opacity: 1;
 }
 
 /* responsive #footer */
@@ -582,12 +584,16 @@ footer#contact {
   footer#contact {
     flex-direction: column-reverse;
   }
-  .footer__newsletter {
+  .footer__newsletter,
+  .footer__follow {
     margin-bottom: 2em;
   }
   .footer__newsletter-header,
   .footer__aboutme-header {
     margin-bottom: 1em;
+  }
+  .footer__icons {
+    font-size: 1.5rem;
   }
 }
 /* end footer section */
